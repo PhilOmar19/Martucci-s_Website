@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+#Bienvenida {
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+#Bienvenida h1 {
+    color: #333;
+    flex: 100%;
+    text-align: center;
+}
+
+#Bienvenida h2{
+    color: #333;
+}
+
+#Bienvenida img {
+    width: 20%;
+}
+
+#Bienvenida #Inicio {
+    width: 65%;
+    margin-right: 5%;
+    text-align: justify;
+}
+#Consolidacion{
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+#Consolidacion h2{
+    color: #333;
+}
+
+#Consolidacion #texto1{
+    width: 65%;
+    margin-left: 2%;
+    text-align: justify;
+}
+
+#Consolidacion figure{
+    width: 20%;
+}
+
+#Final{
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-bottom: 3%;
+}
+
+#Final h2{
+    color: #333;
+}
+
+#Final #texto2{
+    width: 70%;
+    margin-right: 5%;
+    text-align: justify;
+}
+
+#Final #texto2{
+    width: 60%;
+}

@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+#Bienvenida {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+#Bienvenida h1 {
+    color: #333;
+    flex: 100%;
+    text-align: center;
+}
+
+#Sinfonia1{
+    display: flex;
+    padding: 0;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+#Sinfonia1 h2, b{
+    color: #333;
+}
+
+#Sinfonia1 #Texto1{
+    width: 65%;
+    margin-right: 2%;
+    text-align: justify;
+}
+
+#Sinfonia1 figure{
+    width: 20%;
+}
+
+#Concierto1{
+    display: flex;
+    padding: 2%;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+#Concierto1 h2, b{
+    color: #333;
+}
+
+#Concierto1 #Texto2{
+    width: 60%;
+    text-align: justify;
+}
+
+#Concierto1 figure{
+    width: 20%;
+    margin-right: 10%;
+}

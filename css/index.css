@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+#Bienvenida {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+#Bienvenida h1 {
+    color: #333;
+    flex: 100%;
+    text-align: center;
+}
+
+#Bienvenida img {
+    width: 30%;
+    border-radius: 2%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#Bienvenida #texto {
+    width: 65%;
+    margin-right: 5%;
+    text-align: justify;
+}
+
+#Bienvenida #texto p{
+    margin-bottom: 3%;
+}
+
+.Parrafo1,
+.Parrafo2 {
+    background-color: #fff;
+    padding: 2%;
+    margin: auto;
+    margin-bottom: 5%;
+    max-width: 600px;
+    border-radius: 2%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.Parrafo1 p,
+.Parrafo2 p {
+    color: #333;
+}
+
+.Parrafo1 button,
+.Parrafo2 button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 2% 3%;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.Parrafo1 button:hover,
+.Parrafo2 button:hover {
+    background-color: #555;
+}
